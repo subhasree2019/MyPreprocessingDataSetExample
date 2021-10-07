@@ -51,7 +51,7 @@ for i in range(1,len(s)):
 
 # In[15]:
 
-
+# DATA DESCRIPTION CLASS
 class data_desc:
         
     def menu(self):
@@ -109,7 +109,7 @@ class data_desc:
 
 # In[16]:
 
-
+# HANDLING NULL VALUES
 class handle_nul():
         
     def menu(self):
@@ -215,6 +215,7 @@ class handle_nul():
 # In[17]:
 
 
+# ENCODING CATEGORICAL VALUES
 
 class encode_cat():
         
@@ -274,6 +275,7 @@ class encode_cat():
 
 # In[18]:
 
+# FEATIRE SCALING CLASS
 
 #df=pd.read_csv("/Users/subhasree/Desktop/My project/train.csv")
 class feature_scaling():
